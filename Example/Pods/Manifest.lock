@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - UDCycleView (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - UDCycleView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  UDCycleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  UDCycleView: a6c94cbac59b7c2d8d6887f6ca8821256b0feb31
+
+PODFILE CHECKSUM: b5d5c3cb021aa227fdf4d9c77b764ccf18ebedc2
+
+COCOAPODS: 1.8.4
